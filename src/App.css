@@ -1,38 +1,114 @@
-.App {
-  text-align: center;
+* {
+  box-sizing: border-box;
+  font-size: 18px;
+  margin: 0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.get-in-touch__wrapper {
+  padding-bottom: 0;
+  padding-top: 0;
+  background-color: transparent; 
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.get-in-touch {
+  background-image: url(./images/getintouch_background-92134c00d1c4818c60fb3827a388fd53.png);
+  position: relative;
+  padding: 100px 0 60px;
+  background-color: #006ef1;
+  background-repeat: no-repeat;
+  background-position: right top -80px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.get-in-touch__content {
+  position: relative;
+  max-width: 600px;
+  height: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.get-in-touch__head {
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  align-items: flex-start;
+  font-family: 'Raleway', sans-serif;
+  width: 100%;
+  margin-bottom: 50px;
+  justify-content: flex-start;
+  color: #fff;
+}
+
+.get-in-touch__title {
+  margin: 0 90px 0 0;
+  max-width: 350px;
+  font-size: 36px;
+  line-height: 44px;
+  font-family: 'Raleway', sans-serif;
+}
+
+.get-in-touch__subtitle {
+  margin: 0;
+  max-width: 640px;
+  font-size: 24px;
+  line-height: 31px;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 200;
+}
+
+.get-in-touch__main {
+  display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  flex-wrap: wrap;
 }
 
-.App-link {
-  color: #61dafb;
+.get-in-touch__form {
+  width: 450px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.contact-form {
+  width: 100%;
 }
+
+.contact-form__input {
+  width: 100%;
+  padding: 20px;
+  margin-bottom: 16px;
+  color: #fff;
+  background-color: #0056dd;
+  border: none;
+  border-radius: 16px;
+  font-weight: 500;
+  outline: none;
+  box-sizing: border-box;
+  font-family: 'Noto Sans JP', sans-serif;
+}
+
+.contact-form__button {
+  background-color: #142333;
+  padding: 18px 80px 14px;
+  display: inline-block;
+  border-radius: 32px;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  color: #fff;
+  border: none;
+  text-transform: uppercase;
+  transition: box-shadow .1s ease-in-out;
+  cursor: pointer;
+  font-size: 18px;
+  
+}
+
+.contact-form__button:hover {
+  background-color: #292a2b;
+}
+
+input::-webkit-input-placeholder { 
+  color: rgb(163, 169, 172); 
+}
+
+textarea::-webkit-input-placeholder {
+  color: rgb(163, 169, 172); 
+}
+
+
